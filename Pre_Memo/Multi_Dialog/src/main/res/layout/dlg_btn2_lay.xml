@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- コンテンツ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/bg_dialog"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+	>
+
+        <!-- タイトル -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_dialog_title"
+            android:padding="10dp"
+            android:text="Title"
+            android:textSize="@dimen/dlg_Ttl_txtSize"
+            android:textColor="@color/Title_txt"
+		/>
+
+        <!-- メッセージ -->
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Message"
+            android:textSize="@dimen/dlg_Msg_txtSize"
+            android:textColor="@color/Msg_txt"
+		/>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:orientation="horizontal" >
+        	<!-- Positive ボタン -->
+        	<Button
+        	    android:id="@+id/positive_button"
+        	    android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="6dp"
+				android:layout_marginRight="@dimen/dlg_btn2_rightSpace"
+            	android:background="@drawable/bt_dialog_btn"
+            	android:text="btn-Positive"
+            	android:textColor="@color/Btn_txt"
+				android:textSize="@dimen/dlg_btn_txtSize"
+			/>
+			<!-- Negative ボタン -->
+        	<Button
+            	android:id="@+id/negative_button"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="6dp"
+            	android:background="@drawable/bt_dialog_btn"
+            	android:text="btn-Negative"
+            	android:textColor="@color/Btn_txt"
+				android:textSize="@dimen/dlg_btn_txtSize"
+			/>
+		</LinearLayout>
+    </LinearLayout>
+
+    <!-- Close ボタン -->
+    <Button
+        android:id="@+id/close_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bt_dialog_close"
+        android:text="×"
+        android:textColor="@color/Msg_Green"
+	/>
+
+</RelativeLayout>

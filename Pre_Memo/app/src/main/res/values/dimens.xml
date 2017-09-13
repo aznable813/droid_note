@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="activity_horizontal_margin">20dp</dimen>
+	<dimen name="activity_vertical_margin">20dp</dimen>
+	<dimen name="vp_btn_del_width">80dp</dimen>
+	<dimen name="vp_btn_recov_width">80dp</dimen>
+	<dimen name="vp_mrgin_Pad">5dp</dimen>
+	<dimen name="home_btn_arnd">3dp</dimen>
+	<dimen name="IC_half">48dp</dimen>
+	<dimen name="IC_mini">30dp</dimen>
+	<!-- Text Sise -->
+	<dimen name="title_txt">15sp</dimen>
+	<dimen name="Home_Btns_txt_Size">20sp</dimen>
+	<dimen name="subtitle_txt">10sp</dimen>
+	
+	<dimen name="Ad_Nend_Height">160dp</dimen>
+	
+</resources>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory
+        android:title="@string/Categ_StUp" >
+	<ListPreference
+		android:key="@string/K_Startup"
+		android:title="@string/Title_StUp"
+		android:entries="@array/entries_StUp"
+		android:entryValues="@array/entries_StUp"
+		android:dialogTitle="ListPreference" />
+	</PreferenceCategory>
+	<PreferenceCategory
+        android:title="@string/Categ_Odr">
+		<ListPreference
+			android:key="@string/K_Odr1"
+			android:title="@string/Title_Odr1"
+			android:entries="@array/entries_Odr"
+			android:entryValues="@array/entries_Odr"
+			android:summary="@string/ErrDsp"
+			android:dialogTitle="ListPreference" />
+		<ListPreference
+			android:key="@string/K_Odr1_by"
+			android:title="@string/Title_Odr_by"
+			android:entries="@array/entries_Odr_by"
+			android:entryValues="@array/entries_Odr_by"
+			android:dialogTitle="ListPreference" />
+		<ListPreference
+			android:key="@string/K_Odr2"
+			android:title="@string/Title_Odr2"
+			android:summary="@string/ErrDsp"
+			android:entries="@array/entries_Odr"
+			android:entryValues="@array/entries_Odr"
+			android:dialogTitle="ListPreference" />
+		<ListPreference
+			android:key="@string/K_Odr2_by"
+			android:title="@string/Title_Odr_by"
+			android:entries="@array/entries_Odr_by"
+			android:entryValues="@array/entries_Odr_by"
+			android:dialogTitle="ListPreference" />
+	</PreferenceCategory>
+	<PreferenceCategory
+		android:title="@string/Categ_Other" >
+		<Preference
+			android:key="@string/K_Set_Def"
+			android:title="@string/Title_Set_Def"
+			android:summary="">
+		</Preference>
+		<Preference
+			android:key="@string/K_rcv_Btn"
+			android:title="@string/Title_Rcv"
+			android:summary="">
+		</Preference>
+		<Preference
+			android:key="@string/K_back_Btn"
+			android:title="@string/setting_back">
+		</Preference>
+	</PreferenceCategory>
+</PreferenceScreen>

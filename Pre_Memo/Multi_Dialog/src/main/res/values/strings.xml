@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="CustomDialogFragment_btn_yes">Yes</string>
+	<string name="CustomDialogFragment_btn_no">No</string>
+	<string name="CustomDialogFragment_btn_ok">OK</string>
+	<string name="CustomDialogFragment_btn_cancel">Cancel</string>
+
+<!-- Concerning FileSelectDialog  -->
+	<string name="FileSelectDlg_Here">Here</string>
+	<string name="FileSelectDlg_parent">Parent</string>
+	<string name="FileSelectDlg_cancel">Cancel</string>
+</resources>

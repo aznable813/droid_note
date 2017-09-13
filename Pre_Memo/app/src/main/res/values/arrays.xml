@@ -1,0 +1,20 @@
+<resources>
+	
+	<string-array name="entries_StUp">
+		<item>@string/activity_main</item>
+		<item>@string/activity_list_v</item>
+		<item>@string/activity_list_memo</item>
+	</string-array>
+	<string-array name="entries_Odr">
+		<item>@string/Ent1_Odr</item>
+		<item>@string/Ent2_Odr</item>
+		<item>@string/Ent3_Odr</item>
+	</string-array>
+	
+	<string-array name="entries_Odr_by">
+		<item>@string/Ent1_Odr_by</item>
+		<item>@string/Ent2_Odr_by</item>
+	</string-array>
+	
+	
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ドロイドメモ</string>
+
+<!-- General Msg -->
+	<string name="activity_main">ホーム画面</string>
+	<string name="activity_list_v">メモ一覧</string>
+	<string name="activity_list_memo">メモ入力</string>
+	<string name="activity_test_field">テストステージです</string>
+	<string name="activity_SettingsPrf">設定画面</string>
+	<string name="activity_garbage">ゴミ箱</string>
+	<string name="activity_garbage_Contents">削除メモ</string>
+	
+<!-- General Msg -->
+	<string name="Dbl_Back_Msg">"もう一度押すと終了します"</string>
+	<string name="excep_Err">例外エラーが発生。</string>
+	
+<!-- YNC_Dialog Strings -->
+	<string name="title_dialog_newMemoSave">作りかけ</string>
+	<string name="title_dialog_ModifiedSave">編集中</string>
+	<string name="msg_dialog_newMemoSave">作成中のメモが有ります。\n
+		新規保存しますか？</string>
+	<string name="msg_dialog_ModifiedSave">編集中のメモが有ります。\n
+		変更を保存しますか？</string>
+	<string name="Saved_newMemo">新規保存しました。</string>
+	<string name="Updated_Memo">変更を保存しました。</string>
+	<string name="Copied_Memo">コピーを作成しました。</string>
+	<string name="Cancel_Act">キャンセルしました。</string>
+	<!-- garbage canview Msg -->
+	<string name="title_dlg_allErase">ゴミ箱を空にします</string>
+	<string name="title_dlg_allRecover">メモを元に戻す</string>
+	<string name="msg_dlg_allErase">ゴミ箱のメモをすべて削除します。\n
+		宜しいですか？\n\n
+		対象件数：　</string>
+	<string name="msg_dlg_allRecover">ゴミ箱のメモをすべて元に戻します。\n
+		宜しいですか？\n\n
+		対象件数：　</string>
+	<string name="msg_already_empty">ゴミ箱は空っぽです。</string>
+	
+	<!-- Home_Page Button text -->
+	<string name="Hm_Btn_AddNew">新規作成</string>
+	<string name="Hm_Btn_OpMemo">メモを開く</string>
+	<string name="Hm_Btn_OpList">一覧を開く</string>
+	<string name="Hm_Btn_Recycle">ゴミ箱</string>
+	<string name="Hm_Btn_Settings">アプリ設定</string>
+	<string name="Hm_Btn_BKUP">バックアップをとる</string>
+	<string name="Hm_Btn_Restore">バックアップから復元</string>
+	
+	
+	<!-- BackUp_Btn_Click -->
+	<string name="title_dlg_BefoBKUP">バックアップ</string>
+	<string name="msg_dlg_BefoBKUP">データをバックアップします。\n宜しいですか？</string>
+	<string name="msg_preDelBKUP">このフォルダには同じ名前のバックアップファイルが存在します。\n上書きしますか？</string>
+	<string name="BKOVWErrMsg">上書きが失敗しました。</string>
+	<string name="BKRsltErrMsg">バックアップが失敗しました。\n\nErr：　</string>
+	<string name="msg_FinBKUP">バックアップが完了しました。</string>
+	<!-- restore_Btn_Click -->
+	<string name="title_dlg_BefoRestore">データ復元</string>
+	<string name="msg_dlg_BefoRestore">バックアップファイルからデータを復元します。\n宜しいですか？</string>
+	<string name="RstrRsltErrMsg">バックアップからの復元が失敗しました。\n\nErr：　</string>
+	<string name="msg_FinRestore">バックアップからの復元が完了しました。</string>
+	
+	<!-- VP_Btn_Click Strings -->
+	<string name="btn_del_Clicked">消去しました。</string>
+	<string name="btn_Fail_del_Clicked">消去に失敗しました！</string>
+	<string name="btn_erase_Clicked">完全に削除しました。</string>
+	<string name="btn_recover_Clicked">もとに戻しました。</string>
+	
+	<!-- input menu Strings -->
+	<string name="inp_mn_home">ホーム</string>
+	<string name="inp_mn_setting">設定</string>
+	<string name="inp_mn_del">消去</string>
+	<string name="inp_mn_copy">複写</string>
+	
+	<string name="btn_ok">OK</string>
+	<string name="btn_cancel">キャンセル</string>
+	<string name="btn_del">消去</string>
+	<string name="btn_recover">復元</string>
+	<string name="btn_erase">削除</string>
+	<string name="mn_all_erase">ゴミ箱を空にする</string>
+	<string name="mn_all_recover">すべて元に戻す</string>
+	
+	<!-- Concerning Garbage can -->
+	
+	<!-- Concerning Preference -->
+	<!--KeyName-->
+	<string name="K_Init">Key0</string>
+	<string name="K_Startup">Key1</string>
+	<string name="K_Odr1">Key2</string>
+	<string name="K_Odr1_by">Key3</string>
+	<string name="K_Odr2">Key4</string>
+	<string name="K_Odr2_by">Key5</string>
+	<string name="K_back_Btn">Key6</string>
+	<string name="K_rcv_Btn">Key7</string>
+	<string name="K_rcv_Btn_Date">Key8</string>
+	<string name="K_CrntPath">Key9</string>
+	<string name="K_Set_Def">Key10</string>
+	
+	<!--Preference Strings-->
+	<string name="Categ_StUp">起動画面</string>
+	<string name="Title_StUp">アプリ起動時の画面設定</string>
+
+	<string name="Categ_Odr">並び順</string>
+	<string name="Title_Odr1">第1項目</string>
+	<string name="Title_Odr2">第2項目</string>
+	<string name="Title_Odr_by">並び順</string>
+	<string name="ErrDsp">Error</string>
+
+	<string name="Ent1_Odr">更新日</string>
+	<string name="Ent2_Odr">タイトル</string>
+	<string name="Ent3_Odr">カテゴリ</string>
+	<string name="Ent1_Odr_by">昇順</string>
+	<string name="Ent2_Odr_by">降順</string>
+	
+	<string name="Categ_Other">その他</string>
+	
+	<string name="Title_Set_Def">設定を初期値に戻す</string>
+	<string name="Title_Rcv">以前のデータに復元</string>
+	<string name="PreSetDefMsg">設定を初期状態に戻します。\n宜しいですか？\n\n</string>
+	<string name="PreRcvMsg">以前のデータに復元します。\n宜しいですか？\n\n</string>
+	<string name="SetDefFinMsg">設定を初期状態に戻しました。</string>
+	<string name="RcvFinMsg">以前の状態に復元しました。</string>
+	<string name="RcvErrMsg">復元するデータがありません。</string>
+	<string name="RcvRsltErrMsg">復元が失敗しました。\n\nErr：　</string>
+	<string name="setting_back">戻る</string>
+
+	<!-- Concerning Preference -->
+	
+	
+</resources>
+

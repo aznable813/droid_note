@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape	xmlns:android="http://schemas.android.com/apk/res/android" >
+    <stroke android:width="2dp" 
+		android:color="@color/ln_gray"/>
+    <gradient 
+		android:startColor="@color/bg_toolbar_start"
+		android:endColor="@color/bg_toolbar_end"
+		android:angle="90"/>
+</shape>
+

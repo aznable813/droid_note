@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.0"
+
+    defaultConfig {
+        applicationId "com.Pre_Memo"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 4
+        versionName "1.0.4"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+	compile 'net.nend.android:nend-sdk:3.3.1'
+	compile 'com.android.support:appcompat-v7:23.2.1'
+	compile 'com.android.support:support-v4:+'
+	compile project(':Multi_Dialog')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

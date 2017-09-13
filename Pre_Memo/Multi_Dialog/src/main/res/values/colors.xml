@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="Title_txt">#E3F2FD</color>
+	<color name="Msg_txt">#333333</color>
+	<color name="Btn_txt">#E3F2FD</color>
+    <color name="Msg_Green">#00C853</color>
+	<color name="Msg_Area_Start">#ffffff</color>
+	<color name="Msg_Area_End">#2277cc</color>
+	
+</resources>

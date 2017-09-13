@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:background="#00000000"
+	>
+	</RelativeLayout>
+	<Button
+		android:id="@+id/btn_del"
+		android:layout_width="@dimen/vp_btn_del_width"
+		android:layout_height="wrap_content"
+		android:background="@color/del_btn_Red"
+		android:text="@string/btn_erase"
+		android:textColor="@color/txt_White"
+	/>
+
+	<Button
+		android:id="@+id/btn_recover"
+		android:layout_width="@dimen/vp_btn_recov_width"
+		android:layout_height="wrap_content"
+		android:background="@color/recov_btn_Green"
+		android:text="@string/btn_recover"
+		android:textColor="@color/txt_White"
+	/>
+
+</LinearLayout>

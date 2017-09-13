@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="CustomDialogFragment_btn_yes">はい</string>
+	<string name="CustomDialogFragment_btn_no">いいえ</string>
+	<string name="CustomDialogFragment_btn_ok">OK</string>
+	<string name="CustomDialogFragment_btn_cancel">キャンセル</string>
+	
+<!-- Concerning FileSelectDialog  -->
+	<string name="FileSelectDlg_Here">このフォルダ</string>
+	<string name="FileSelectDlg_parent">上へ</string>
+	<string name="FileSelectDlg_cancel">キャンセル</string>
+</resources>

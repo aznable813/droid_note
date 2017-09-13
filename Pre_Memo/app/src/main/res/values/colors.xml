@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="Memofield">#ffecb3</color>
+    <color name="Msg_Green">#9acd32</color>
+	<color name="bg_toolbar_start">#ff8888</color>
+	<color name="bg_toolbar_end">#ffbb33</color>
+	<color name="home_btns">#ffbb33</color>
+	<color name="ln_gray">#607D8B</color>
+	<color name="garbage_gray">#aabbcc</color>
+	<color name="del_btn_Red">#cc3030</color>
+	<color name="recov_btn_Green">#388E3C</color>
+	<color name="txt_White">#ffffff</color>
+</resources>

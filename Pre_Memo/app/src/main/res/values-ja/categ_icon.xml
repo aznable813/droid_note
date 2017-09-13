@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="categ_list">
+		<item>@drawable/icon_all</item>
+		<item>@drawable/icon_nothing</item>
+		<item>@drawable/icon_abit</item>
+		<item>@drawable/icon_impo</item>
+		<item>@drawable/icon_chkit</item>
+		<item>@drawable/icon_dfgt</item>
+		<item>@drawable/icon_idea</item>
+		<item>@drawable/icon_memory</item>
+		<item>@drawable/icon_temp</item>
+		<item>@drawable/icon_tips</item>
+	</array>
+
+</resources>

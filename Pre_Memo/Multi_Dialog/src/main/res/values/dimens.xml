@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="activity_horizontal_margin">20dp</dimen>
+	<dimen name="activity_vertical_margin">20dp</dimen>
+	
+	<dimen name="dlg_Ttl_txtSize">18sp</dimen>
+	<dimen name="dlg_Msg_txtSize">16sp</dimen>
+	<dimen name="dlg_btn_txtSize">12sp</dimen>
+	<dimen name="dlg_btn2_rightSpace">20dp</dimen>
+	<dimen name="dlg_btn3_rightSpace">10dp</dimen>
+	
+	
+	<dimen name="IC_half">48dp</dimen>
+	<dimen name="IC_mini">30dp</dimen>
+</resources>
+

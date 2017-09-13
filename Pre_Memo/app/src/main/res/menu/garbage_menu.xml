@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+	<!--app:showAsAction="collapseActionView|ifRoom"-->
+	<!--app:showAsAction="always"-->
+	<item
+		android:id="@+id/garbage_to_home"
+        android:icon="@drawable/home_blue128"
+		app:showAsAction="always" />
+	<item
+		android:id="@+id/garbage_to_listview"
+        android:icon="@drawable/list128"
+		app:showAsAction="always" />
+	<item
+		android:id="@+id/garbage_overflow"
+        android:icon="@drawable/icon_overflow"
+		app:showAsAction="always">
+		<menu>
+			<item
+				android:id="@+id/item_all_erase"
+				android:icon="@drawable/icon_erase"
+				android:title="@string/mn_all_erase"
+				app:showAsAction="never" />
+			<item
+				android:id="@+id/item_all_recover"
+				android:icon="@drawable/icon_recover"
+				android:title="@string/mn_all_recover"
+				app:showAsAction="never" />
+		</menu>
+	</item>
+</menu>

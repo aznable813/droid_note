@@ -1,0 +1,28 @@
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	>
+
+	<item
+		android:id="@+id/tohome"
+        android:icon="@drawable/home_blue128"
+		app:showAsAction="always" />
+	<item
+		android:id="@+id/editmemo"
+        android:icon="@drawable/openmemo128"
+		app:showAsAction="always" />
+	<item
+		android:id="@+id/addmemo"
+        android:icon="@drawable/addnew128"
+		app:showAsAction="always" />
+	<item
+		android:id="@+id/settings"
+        android:icon="@drawable/settings128"
+		app:showAsAction="always" />
+    <item
+		android:id="@+id/search"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/search"
+		app:showAsAction="always"
+		/>
+</menu>

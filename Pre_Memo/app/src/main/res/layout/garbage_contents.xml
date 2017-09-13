@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/del_contents_toolbar"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+        android:background="@color/ln_gray" >
+		<ImageView
+			android:id="@+id/del_logo"
+			android:src="@drawable/icon_delete"
+			android:layout_width="@dimen/IC_half"
+			android:layout_height="@dimen/IC_half" />
+		<TextView
+			android:id="@+id/del_title"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="@string/activity_garbage_Contents"
+			android:textSize="@dimen/title_txt"
+			android:textColor="@color/txt_White" />
+	</android.support.v7.widget.Toolbar>
+	
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/garbage_gray"
+		>
+		<ImageView
+			android:id="@+id/garbage_contensIV"
+			android:layout_width="@dimen/IC_half"
+			android:layout_height="@dimen/IC_half" />
+	</LinearLayout>
+	
+	<TextView
+		android:id="@+id/del_txt_v"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:gravity="top"
+		android:textIsSelectable="true"
+		android:textColor="@color/ln_gray"
+		android:background="@color/garbage_gray">
+	</TextView>
+
+
+</LinearLayout>
+

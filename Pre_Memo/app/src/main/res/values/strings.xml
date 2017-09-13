@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droid Note</string>
+
+<!-- General Msg -->
+	<string name="activity_main">Home</string>
+	<string name="activity_list_v">List Page</string>
+	<string name="activity_list_memo">Edit Note</string>
+	<string name="activity_SettingsPrf">Settings</string>
+	<string name="activity_garbage">Trash</string>
+	<string name="activity_garbage_Contents">Deleted Note</string>
+	
+<!-- General Msg -->
+	<string name="Dbl_Back_Msg">"Press again to exit"</string>
+	<string name="excep_Err">An error occurred</string>
+	
+<!-- YNC_Dialog Strings -->
+	<string name="title_dialog_newMemoSave">Creating</string>
+	<string name="title_dialog_ModifiedSave">Editing</string>
+	<string name="msg_dialog_newMemoSave">There is a creating note !\n
+		Do you want to save the creating note ? </string>
+	<string name="msg_dialog_ModifiedSave">There is a editing note !\n
+		Do you want to update the editing note ?</string>
+	<string name="Saved_newMemo">Has been saved.</string>
+	<string name="Updated_Memo">Has been updated.</string>
+	<string name="Copied_Memo">Has been copied.。</string>
+	<string name="Cancel_Act">Has been canceled.</string>
+	<!-- garbage canview Msg -->
+	<string name="title_dlg_allErase">Empty Trash</string>
+	<string name="title_dlg_allRecover">Recover all </string>
+	<string name="msg_dlg_allErase">Are you sure you want to erase all notes completely ?
+		\n\n
+		Note counts: </string>
+	<string name="msg_dlg_allRecover">Are you sure you want to recover all notes ?\n
+		\n\n
+		Note counts: </string>
+	<string name="msg_already_empty">Trash is empty</string>
+	
+	<!-- Home_Page Button text -->
+	<string name="Hm_Btn_AddNew">Add New Note</string>
+	<string name="Hm_Btn_OpMemo">Note in Editing</string>
+	<string name="Hm_Btn_OpList">List Page</string>
+	<string name="Hm_Btn_Recycle">Trash</string>
+	<string name="Hm_Btn_Settings">Settings</string>
+	<string name="Hm_Btn_BKUP">Backup</string>
+	<string name="Hm_Btn_Restore">Restore</string>
+	
+	
+	<!-- BackUp_Btn_Click -->
+	<string name="title_dlg_BefoBKUP">Backup</string>
+	<string name="msg_dlg_BefoBKUP">Do you want to start the backup? </string>
+	<string name="msg_preDelBKUP">Backup-file already exists in this folder\nAre you sure you want to overwrite ?</string>
+	<string name="BKOVWErrMsg">Unable to overwrite !</string>
+	<string name="BKRsltErrMsg">Unable to Backup \n\nErr：　</string>
+	<string name="msg_FinBKUP">Backup has been completed.</string>
+	<!-- restore_Btn_Click -->
+	<string name="title_dlg_BefoRestore">Restore</string>
+	<string name="msg_dlg_BefoRestore">Do you want to restore from the Backup-file ?</string>
+	<string name="RstrRsltErrMsg">Unable to restore from the file !\n\nErr：　</string>
+	<string name="msg_FinRestore">Restore has been completed.</string>
+	
+	<!-- VP_Btn_Click Strings -->
+	<string name="btn_del_Clicked">Has been deleted.</string>
+	<string name="btn_Fail_del_Clicked">Unable to delete！</string>
+	<string name="btn_erase_Clicked">Has been erased completely.</string>
+	<string name="btn_recover_Clicked">Has been recovered.</string>
+	
+	<!-- input menu Strings -->
+	<string name="inp_mn_home">Home</string>
+	<string name="inp_mn_setting">Settings</string>
+	<string name="inp_mn_del">Delete</string>
+	<string name="inp_mn_copy">Copy</string>
+	
+	<string name="btn_ok">OK</string>
+	<string name="btn_cancel">Cancel</string>
+	<string name="btn_del">Delete</string>
+	<string name="btn_recover">Recover</string>
+	<string name="btn_erase">Erase</string>
+	<string name="mn_all_erase">Empty Trash</string>
+	<string name="mn_all_recover">Recover all</string>
+	
+	<!-- Concerning Garbage can -->
+	
+	<!-- Concerning Preference -->
+	<!--KeyName-->
+	<string name="K_Init">Key0</string>
+	<string name="K_Startup">Key1</string>
+	<string name="K_Odr1">Key2</string>
+	<string name="K_Odr1_by">Key3</string>
+	<string name="K_Odr2">Key4</string>
+	<string name="K_Odr2_by">Key5</string>
+	<string name="K_back_Btn">Key6</string>
+	<string name="K_rcv_Btn">Key7</string>
+	<string name="K_rcv_Btn_Date">Key8</string>
+	<string name="K_CrntPath">Key9</string>
+	<string name="K_Set_Def">Key10</string>
+	
+	<!--Preference Strings-->
+	<string name="Categ_StUp">Startup</string>
+	<string name="Title_StUp">Setting Startup-Screen</string>
+
+	<string name="Categ_Odr">Sort</string>
+	<string name="Title_Odr1">1st Category</string>
+	<string name="Title_Odr2">2nd Category</string>
+	<string name="Title_Odr_by">Order</string>
+	<string name="ErrDsp">Error</string>
+
+	<string name="Ent1_Odr">Last Update</string>
+	<string name="Ent2_Odr">Title</string>
+	<string name="Ent3_Odr">Icon</string>
+	<string name="Ent1_Odr_by">Ascending</string>
+	<string name="Ent2_Odr_by">Descending</string>
+	
+	<string name="Categ_Other">Other</string>
+	<string name="Title_Set_Def">Reset Settings</string>
+	<string name="Title_Rcv">Restore the previous data</string>
+	<string name="PreSetDefMsg">Are you sure you want to revert to the default ?\n\n</string>
+	<string name="PreRcvMsg">Are you sure you want to restore the previous data ?\n\n</string>
+	<string name="SetDefFinMsg">Reset has been completed.</string>
+	<string name="RcvFinMsg">Restore has been completed.</string>
+	<string name="RcvErrMsg">There is no Restore data !</string>
+	<string name="RcvRsltErrMsg">Unable to restore !\n\nErr：　</string>
+	<string name="setting_back">Return</string>
+
+	<!-- Concerning Preference -->
+	
+	
+</resources>
+

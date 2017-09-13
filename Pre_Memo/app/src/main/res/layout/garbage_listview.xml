@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	<!-- android:minHeight="?attr/actionBarSize" -->
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/del_view_toolbar"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+        android:background="@color/ln_gray" >
+		<ImageView
+			android:id="@+id/del_logo"
+			android:src="@drawable/recyclebin128"
+			android:layout_width="@dimen/IC_half"
+			android:layout_height="@dimen/IC_half" />
+		<TextView
+			android:id="@+id/del_title"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="@string/activity_garbage"
+			android:textSize="@dimen/title_txt"
+			android:textColor="@color/txt_White" />
+	</android.support.v7.widget.Toolbar>
+
+	<ListView
+		android:id="@+id/garbage_list_v"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"/>
+</LinearLayout>
